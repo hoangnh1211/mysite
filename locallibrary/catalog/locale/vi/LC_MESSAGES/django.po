@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 16:58+0700\n"
+"POT-Creation-Date: 2021-08-02 20:19+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,14 +30,87 @@ msgstr "Tất cả sách"
 msgid "All authors"
 msgstr "Tất cả tác giả"
 
+#: .\templates\base_generic.html:32
+msgid "previous"
+msgstr "Trước"
+
+#: .\templates\base_generic.html:35
+msgid "Page"
+msgstr "Trang"
+
+#: .\templates\base_generic.html:38
+msgid "next"
+msgstr "Tiếp theo"
+
+#: .\templates\catalog\author_detail.html:4
+#: .\templates\catalog\book_detail.html:6
+#| msgid "Authors:"
+msgid "Author"
+msgstr "Tác giả"
+
+#: .\templates\catalog\author_detail.html:7
+#| msgid "Books:"
+msgid "Books"
+msgstr "Sách:"
+
+#: .\templates\catalog\author_list.html:4
+#| msgid "Authors:"
+msgid "Author List"
+msgstr "Tác giả"
+
+#: .\templates\catalog\author_list.html:14
+msgid "There are no authors"
+msgstr ""
+
+#: .\templates\catalog\book_detail.html:4
+msgid "Title"
+msgstr "Tên"
+
+#: .\templates\catalog\book_detail.html:7
+msgid "Summary"
+msgstr "Bản tóm tắt"
+
+#: .\templates\catalog\book_detail.html:8
+msgid "ISBN"
+msgstr ""
+
+#: .\templates\catalog\book_detail.html:9
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: .\templates\catalog\book_detail.html:10
+msgid "Genre"
+msgstr "Thể loại"
+
+#: .\templates\catalog\book_detail.html:13
+#| msgid "Copies:"
+msgid "Copies"
+msgstr "Bản sao:"
+
+#: .\templates\catalog\book_detail.html:21
+msgid "Due to be returned"
+msgstr "Do được trả lại"
+
+#: .\templates\catalog\book_detail.html:23
+msgid "Imprint"
+msgstr "Dấu ấn"
+
+#: .\templates\catalog\book_list.html:4
+#| msgid "Books:"
+msgid "Book List"
+msgstr "Sách:"
+
+#: .\templates\catalog\book_list.html:14
+msgid "There are no books in the library."
+msgstr "Không có sách nào trong thư viện."
+
 #: .\templates\index.html:5
 msgid "Local Library Home"
 msgstr "Trang chủ thư viện địa phương"
 
 #: .\templates\index.html:6
 msgid "Welcome to LocalLibrary, a website developed by "
-msgstr ""
-"Chào mừng bạn đến với Thư viện địa phương, một trang web được phát triển bởi"
+msgstr "Chào mừng bạn đến với Thư viện địa phương, một trang web được phát triển bởi"
 
 #: .\templates\index.html:6
 msgid "Mozilla Developer Network"
