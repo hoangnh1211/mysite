@@ -72,6 +72,10 @@ class BookInstance(models.Model):
     def is_overdue(self):
         return self.due_back and date.today() > self.due_back
 
+    @property
+    def is_overdue(self):
+        return self.due_back and date.today() > self.due_back
+
     class Meta:
         ordering = ['due_back']
         permissions = (("can_mark_returned", "Set book as returned"),)
